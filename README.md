@@ -8,7 +8,7 @@ Usage
 
 Agregar dependencia de maven al POM 
 
-```xml
+```XML
 	<dependency>
   		<groupId>utn.frba.dds</groupId>
 		<artifactId>poi-repositorio-cgp</artifactId>
@@ -17,7 +17,9 @@ Agregar dependencia de maven al POM
 ```
 Crear una instancia de RepositorioCGPExterno
 
-RepositorioCGPExterno repositorio = new RepositorioCGPExterno();
-List<CentroDTO> resultado = repositorio.buscarCGPs("Av. de Mayo");
+```JAVA
+	RepositorioCGPExterno repositorio = new RepositorioCGPExterno();
+	List<CentroDTO> resultado = repositorio.buscarCGPs("Av. de Mayo");
+```
 
 El servicio retorna una lista de CentroDTO con los CGP's que matchean el criterio de busqueda.
