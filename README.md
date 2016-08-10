@@ -8,12 +8,13 @@ Usage
 
 Agregar dependencia de maven al POM 
 
-<dependency>
-  <groupId>utn.frba.dds</groupId>
-	<artifactId>poi-repositorio-cgp</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-</dependency>
-
+```xml
+	<dependency>
+  		<groupId>utn.frba.dds</groupId>
+		<artifactId>poi-repositorio-cgp</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</dependency>
+```
 Crear una instancia de RepositorioCGPExterno
 
 RepositorioCGPExterno repositorio = new RepositorioCGPExterno();
